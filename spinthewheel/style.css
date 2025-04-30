@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    padding-top: 50px;
+  }
+  
+  .wheel-container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  canvas {
+    border: 5px solid #333;
+    border-radius: 50%;
+  }
+  
+  #spin {
+    margin-top: 20px;
+    padding: 15px 40px;
+    font-size: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #wheel {
+    width: 300px; ;
+    height: 300px; ;
+    margin:0 auto ;
+    border: 10px solid #333;
+    border-radius:50% ;
+    position:relative ;
+    background-color: white;
+  }
